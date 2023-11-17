@@ -1,0 +1,21 @@
+{
+    "name": "Chat App",
+    "version": "1.0.1",
+    "description": "Chat application built with React, Node, Express, Socket.io, and MongoDB",
+    "scripts": {
+        "seed:data": "npm run seed --prefix server",
+        "client:test": "npm run test --prefix client",
+        "server:test:watch": "npm run test:watch --prefix server",
+        "server:test:ci": "npm run test:ci --prefix server",
+        "test": "npm run test --prefix client && npm run server:test:ci",
+        "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+        "build": "npm run build --prefix client",
+        "start": "npm run start --prefix server"
+    },
+    "author": "Abdullah Waseem",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^4.1.0"
+    },
+    "dependencies": {}
+}
