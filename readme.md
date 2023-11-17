@@ -5,11 +5,11 @@ A chat application that allows users from all over the world to connect and chat
 ## How to Run 
 ```
 git clone https://github.com/abdullahwaseem01/Chat-Application.git 
-cd chat-app
+cd chat-application
 cd client
 npm install
 cd ..
-cd serverad
+cd server
 npm install
 cd ..
 npm run dev
