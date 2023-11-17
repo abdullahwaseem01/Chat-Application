@@ -14,6 +14,7 @@ npm install
 cd ..
 npm run dev
 ```
+Visit http://localhost:8080/ 
 ## Features
 - [x] Realtime Chat
 - [x] Private Chat
